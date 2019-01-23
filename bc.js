@@ -1,7 +1,4 @@
 
-client.login('mfa.TTwlWs5mL0O3oN8NPfcrBDiSduxhLrif0GeWBDfCX1bh_vedk-szXvCxGgRYwGGXTvwjWaGgGXeySw9h5ole');
-
-
 const Discord = require('discord.js'),
     bot = new Discord.Client({sisableEveryone: true})
     console.log("muuuuuuuuute,");
@@ -12,3 +9,5 @@ if(mohamed) {
 setTimeout(() => mohamed.send(`**:Yoo: WelcomE  `×` To `×` Outside , ! :AmimatedHeart: **`), 4000)        
 }
 });
+
+bot.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
