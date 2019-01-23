@@ -11,3 +11,4 @@ setTimeout(() => mohamed.send(`**:Yoo: WelcomE  `×` To `×` Outside , ! :Amimat
 });
 
 bot.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
+ 
